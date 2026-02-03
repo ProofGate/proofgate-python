@@ -12,7 +12,7 @@ class ProofGateConfig(BaseModel):
         default="https://www.proofgate.xyz/api",
         description="Base URL for API"
     )
-    chain_id: int = Field(default=56, description="Default chain ID (56 = BSC)")
+    chain_id: int = Field(default=8453, description="Default chain ID (8453 = Base)")
     guardrail_id: Optional[str] = Field(
         default=None,
         description="Default guardrail ID to use for validations"
