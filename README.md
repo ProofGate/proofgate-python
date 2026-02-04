@@ -29,7 +29,7 @@ pip install proofgate
 from proofgate import ProofGate
 
 # Initialize client
-pg = ProofGate(api_key="pg_your_api_key")  # Get from proofgate.xyz/dashboard
+pg = ProofGate(api_key="pg_live_xxx")  # Get from www.proofgate.xyz/dashboard
 
 # Validate before sending
 result = pg.validate(
@@ -53,7 +53,7 @@ else:
 from proofgate import AsyncProofGate
 
 async def main():
-    async with AsyncProofGate(api_key="pg_your_api_key") as pg:
+    async with AsyncProofGate(api_key="pg_live_xxx") as pg:
         result = await pg.validate(
             from_address="0xYourAgentWallet",
             to="0xContractAddress",
@@ -204,7 +204,7 @@ from proofgate import (
 
 - **Website:** [proofgate.xyz](https://www.proofgate.xyz)
 - **Documentation:** [proofgate.xyz/docs](https://www.proofgate.xyz/docs)
-- **Dashboard:** [proofgate.xyz/dashboard](https://www.proofgate.xyz/dashboard)
+- **Dashboard:** [www.proofgate.xyz/dashboard](https://www.www.proofgate.xyz/dashboard)
 - **GitHub:** [github.com/ProofGate/proofgate-python](https://github.com/ProofGate/proofgate-python)
 
 ## License
