@@ -38,7 +38,7 @@ class AsyncProofGate:
         api_key: str,
         *,
         base_url: str = "https://www.proofgate.xyz/api",
-        chain_id: int = 56,
+        chain_id: int = 8453,
         guardrail_id: Optional[str] = None,
         timeout: float = 30.0,
     ):
@@ -47,7 +47,7 @@ class AsyncProofGate:
         Args:
             api_key: API key from ProofGate dashboard (starts with pg_)
             base_url: Base URL for API (default: https://www.proofgate.xyz/api)
-            chain_id: Default chain ID (default: 56 for BSC)
+            chain_id: Default chain ID (default: 8453 for Base)
             guardrail_id: Default guardrail ID to use for validations
             timeout: Request timeout in seconds (default: 30.0)
         """
@@ -292,7 +292,7 @@ class ProofGate:
         api_key: str,
         *,
         base_url: str = "https://www.proofgate.xyz/api",
-        chain_id: int = 56,
+        chain_id: int = 8453,
         guardrail_id: Optional[str] = None,
         timeout: float = 30.0,
     ):
@@ -301,7 +301,7 @@ class ProofGate:
         Args:
             api_key: API key from ProofGate dashboard (starts with pg_)
             base_url: Base URL for API (default: https://www.proofgate.xyz/api)
-            chain_id: Default chain ID (default: 56 for BSC)
+            chain_id: Default chain ID (default: 8453 for Base)
             guardrail_id: Default guardrail ID to use for validations
             timeout: Request timeout in seconds (default: 30.0)
         """
